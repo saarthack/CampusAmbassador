@@ -8,3 +8,13 @@ body{
    height: 100%;
    width: 100%;
 }
+
+#page1{
+   width: 100%;
+   min-height: 100vh;
+   background-color: #222;   
+}
+
+#page1 img{
+   
+}
