@@ -8,13 +8,30 @@ body{
    height: 100%;
    width: 100%;
 }
+   
+#main{
+    min-height: 100vh;
+    width: 100vw;
+}
 
 #page1{
    width: 100%;
    min-height: 100vh;
+   padding: 30px;
    background-color: #222;   
 }
 
-#page1 img{
-   
+#page1 h1{
+   font-family: "Vanguard CF";
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 12vw;
+   line-height: 10vw;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
 }
