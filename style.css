@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-family: "Vanguard CF";
 }
 
@@ -49,11 +49,11 @@ body {
     display: flex;
     mix-blend-mode: screen;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 #navpart1 {
@@ -61,11 +61,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 #page1 {
@@ -83,7 +83,7 @@ body {
 
 #page1 h2 {
     margin-left: 30px;
-    font-size: 3.4vw;
+    font-size: 3.3vw;
     color: rgb(255, 174, 0);
 }
 
@@ -92,17 +92,54 @@ body {
     width: 90vw;
     height: 48vh;
     margin-top: 5vh;
-    background-image: url(./img/Group\ 1.png);
+    border-radius: 0 350px 350px 0;
     background-size: cover;
+    background-image: url(./img/Group\ 1.png);
     background-position: 40% 50%;
 }
 
 #persn {
     position: absolute;
-    bottom: 2px;
-    right: 40vw;
-    height: 50vh;
+    bottom: 0px;
+    right: 38vw;
+    height: 52vh;
     margin-top: 30px;
+}
+
+#png1 {
+    height: 10vw;
+    position: absolute;
+    left: 15vw;
+    top: -3.9vh;
+}
+
+#png2 {
+    height: 6.7vw;
+    position: absolute;
+    left: 2.2vw;
+    top: 17.4vh;
+}
+
+#png3 {
+    height: 10vw;
+    position: absolute;
+    left: 49vw;
+    top: 2vh;
+}
+
+#png4 {
+    height: 10vw;
+    position: absolute;
+    left: 14vw;
+    top: 30vh;
+}
+
+#png5 {
+    height: 11vw;
+    position: absolute;
+    left: 62vw;
+    top: 30vh;
+
 }
 
 /* #page1 img {
@@ -142,11 +179,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 #page1 {
@@ -173,12 +210,12 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 #page2text {
@@ -228,11 +265,11 @@ body {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 
     #navpart1 a {
@@ -251,11 +288,11 @@ body {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     #navpart2 a {
@@ -273,21 +310,59 @@ body {
         height: 5vw;
     }
 
-    #persn {
-        position: absolute;
-        bottom: 0px;
-        right: 10vw;
-        height: 42vh;
-    }
-
     #capsule {
         position: relative;
         width: 90vw;
         height: 42vh;
-        border-radius: 0 45% 45% 0;
-        overflow: hidden;
+        border-radius: 0 350px 350px 0;
         margin-top: 12vh;
     }
+
+    #persn {
+        position: absolute;
+        bottom: 0px;
+        right: 18vw;
+        height: 40vh;
+        z-index: 99;
+    }
+
+    #png1 {
+        height: 73px;
+        position: absolute;
+        left: 15px;
+        top: -28px;
+    }
+
+    #png2 {
+        height: 43px;
+        position: absolute;
+        left: -1px;
+        top: 110px;
+    }
+
+    #png3 {
+        height: 76px;
+        position: absolute;
+        left: 153px;
+        top: 20px;
+    }
+
+    #png4 {
+        height: 70px;
+        position: absolute;
+        left: 268px;
+        top: 130px;
+        z-index: 999;
+    }
+
+    #png5 {
+        height: 75px;
+        position: absolute;
+        left: 62vw;
+        top: 30vh;
+
+    }
+
 
     #page1 h1 {
         font-size: 70px;
@@ -333,12 +408,12 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     color: #fff;
     height: 46vh;
 }
@@ -413,9 +488,9 @@ body {
     height: 100%;
     width: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     -o-object-position: center;
-       object-position: center;
+    object-position: center;
     mix-blend-mode: hard-light;
 }
 
@@ -460,6 +535,7 @@ body {
         text-align: left;
     }
 
+
     #page3part1div {
         margin-top: -10vh;
         text-align: center;
@@ -470,6 +546,11 @@ body {
         font-size: 11px;
         line-height: 11px;
         font-weight: 400;
+    }
+
+    #page3part1heading span img {
+        height: 76px;
+        margin-left: -6px;
     }
 
     #page3part1button {
@@ -521,13 +602,13 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 20vh;
     width: 90vw;
     margin-top: 3vh;
@@ -570,13 +651,13 @@ body {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         height: 28vh;
         width: 90vw;
         margin-top: 3vh;
@@ -612,14 +693,14 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     height: 32vh;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 #page5heading {
@@ -642,14 +723,14 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     position: relative;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 #page5part2div>p {
@@ -677,9 +758,9 @@ body {
     height: 58.5vh;
     width: 50vw;
     -o-object-position: center;
-       object-position: center;
+    object-position: center;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 @media(max-width: 600px) {
@@ -734,8 +815,8 @@ body {
         height: 35vh;
         width: 90vw;
         -o-object-position: center;
-           object-position: center;
+        object-position: center;
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
     }
 }
